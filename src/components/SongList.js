@@ -15,13 +15,16 @@ const SongList = (props) => {
 
     return (
         <>
+            <h2>Music Chart | Top 20</h2>
             <table>
-                <tr>
-                    <th>Chart Position</th>
-                    <th>Song</th>
-                    <th>Artist</th>
-                </tr>
-                {songChart}
+                <tbody>
+                    <tr>
+                        <th>Chart Position</th>
+                        <th>Song</th>
+                        <th>Artist</th>
+                    </tr>
+                    {songChart}
+                </tbody>
             </table>
         </>
     )
